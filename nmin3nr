@@ -1,0 +1,16 @@
+n1=int(input("introduceti primul numar="))
+n2=int(input("introuceti cel de al doilea numar="))
+n3=int(input("introduceti al trielea numar "))
+def minim(x,y,z):
+    if n1<n2:
+        if n3<n1:
+            min=n3
+        else:
+            min=n1
+    else:
+        if n3<n2:
+            min=n3
+        else:
+            min=n2
+    return min
+print('Numarul minim',minim(n1,n2,n3))
