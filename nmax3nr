@@ -1,0 +1,17 @@
+n1=int(input("introduceti primul numar="))
+n2=int(input("introuceti cel de al doilea numar="))
+n3=int(input("introduceti al trielea numar "))
+#D)valoarea maxim intre 3 numere 
+def maxim(x,y,z):
+    if n1>b:
+        if c>n1:
+            max=c
+        else:
+            max=a
+    else:
+        if c>b:
+            max=c
+        else:
+            max=b
+    return max
+print('Numarul maxim ',maxim(a,b,c))
